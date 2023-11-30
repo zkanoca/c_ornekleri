@@ -22,7 +22,7 @@ Average: 41
 Median: 28
 Maximum: 102
 =-=-=-=-=-=-=-=-=-=-=-=-=
- 0: ( 1) _
+  0: ( 1) _
  10: ( 1) _
  20: ( 3) ___
  30: ( 2) __
@@ -80,11 +80,14 @@ Maximum: 81
 Example Execution #4: Input validation demonstrated.
 Enter seed -> 0
 Error: seed must be positive
+
 Enter seed -> 79
 Enter number of students -> 0
 Error: need at least one student
+
 Enter number of students -> 101
 Error: no more than 100 students
+
 Enter number of students -> 50
 =-=-=-=-=-=-=-=-=-=-=-=-=
 Minimum: 0
@@ -125,7 +128,7 @@ Maximum: 105
  90: ( 11) ___________
 100: ( 8) ________
 
-Example Execution #6:
+*Example Execution #6:*
 Enter seed -> 11
 Enter number of students -> 99
 =-=-=-=-=-=-=-=-=-=-=-=-=
